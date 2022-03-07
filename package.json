@@ -1,0 +1,24 @@
+{
+  "name": "webapi-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn app/app.ts",
+    "connect": "mysql --user=root --password=root"
+  },
+  "keywords": [],
+  "author": "soratsm",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^3.10.0",
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "prisma": "^3.10.0"
+  }
+}
